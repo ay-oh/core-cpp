@@ -31,10 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="03--access-specifer.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="inheritance/01--inheritance.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="inheritance/02--inheritance.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="min.cpp" />
 		<Unit filename="oop/01--encapsulation.cpp">
 			<Option target="Release" />
 		</Unit>
-		<Unit filename="oop/02--constructors.cpp" />
+		<Unit filename="oop/02--constructors.cpp">
+			<Option target="Release" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
