@@ -9,13 +9,15 @@ private:
     int age;
 
 public:
-    Student(const char * myname, int myage)
+    Student(const char* myname, int myage)
     {
         int len = strlen(myname) + 1;
-        name=new char[len];
-        //strcpy_s(name, len, myname);
-        strncpy(name, myname, len); //c++환경에서 사용하는 문자열 복사 함수
-        age=myage;
+        name = new char[len];
+
+        // strcpy_s(name, len, myname);
+        // c++ 환경에서 사용하는 문자열 복사 함수
+        strncpy(name, myname, len);
+        age = myage;
     }
 
     void ShowStudentInfo()
