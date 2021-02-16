@@ -41,12 +41,18 @@
 			<Option target="Release" />
 		</Unit>
 		<Unit filename="min.cpp" />
-		<Unit filename="oop/01--encapsulation.cpp">
-			<Option target="Release" />
+		<Unit filename="oop/03--constructors.cpp" />
+		<Unit filename="oop/04--ctor-overloading.cpp" />
+		<Unit filename="oop/05--destructors.cpp" />
+		<Unit filename="oop/09--static-member-var.cpp" />
+		<Unit filename="oop/10--static-member-func.cpp">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="oop/02--constructors.cpp">
-			<Option target="Release" />
-		</Unit>
+		<Unit filename="struct_class/01--structure.cpp" />
+		<Unit filename="struct_class/02--access-structure.cpp" />
+		<Unit filename="struct_class/03--struct-member-func.cpp" />
+		<Unit filename="struct_class/04--struct-member-func-external-declar.cpp" />
+		<Unit filename="struct_class/05--class-declar.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
