@@ -37,21 +37,7 @@ public:
 /**
  * TODO Task 1: BaseData 클래스를 상속받는 DerivedData 클래스를 작성하세요.
  */
-class DerivedData : public BaseData
-{
-public:
-    DerivedData()
-    {
-        cout << "DerivedData()" << " ";
-    }
-
-    void test_func()
-    {
-        print_data();
-        set_data(5);
-        cout << BaseData::get_data() << endl;
-    }
-};
+class DerivedData : public BaseData {};
 
 
 int main()
@@ -60,13 +46,13 @@ int main()
     /**
      * TODO Task 2: data.set_data() 함수에 10을 넣어 호출하세요.
      */
-    data.set_data(10);
+
     cout << data.get_data() << endl;
 
     /**
      * TODO Task 3: data.test_func() 함수를 호출하세요.
      */
-    data.test_func();
+
 
     return 0;
 }
